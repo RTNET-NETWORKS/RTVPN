@@ -11,6 +11,7 @@ from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 import base64
+import socket
 
 def generate_rsa_key_pair():
 	# Générer une paire de clés RSA
